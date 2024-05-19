@@ -11,7 +11,7 @@ else if(num < gNumber){
     alert(" You Entered a lower number!!");
 }
 else if(num==gNumber){
-    alert("Congratulations You've guessed the numbe!.")
+    alert("Congratulations You've guessed the number!.")
     break;
 }
 else{
