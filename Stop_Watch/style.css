@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background:rgb(168, 166, 166);
+}
+.container{
+    background:linear-gradient(to right, #9cecfb,#65c7f7,#0052d4);
+    width: 40%;
+    border: 12px;
+    padding: 80px;
+    box-shadow:0 0 20px rgb(12, 12, 12);
+}
+.TimeCount{
+    background: rgb(155, 153, 153);
+    font-size: 35px;
+    text-align: center;
+    padding: 25px;
+    color:white;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgb(42, 40, 40);
+    margin-bottom: 30px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.buttons button {
+    background-color: white;
+    padding: 10px 25px;
+    border-radius: 10px;
+    border:none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+.buttons button:hover{
+    background-color:#0571e5;
+    color:white;
+}
+
+.buttons button#start:active{
+    background: green;
+
+}
+
+.buttons button#pause:active{
+    background-color: rgb(227, 143, 8);
+}
+
+.buttons button#reset:active{
+    background-color: red;
+}
