@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: purple;
+}
+.clock{
+    height:300px;
+    width: 300px;
+    background-color: white;
+    border-radius: 50%;
+    border: 10px white;
+    box-shadow: inset 0 0 30px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dot{
+    width:15px;
+    height:15px;
+    border-radius:50%;
+    background-color: #5e5e5e;
+    border: 1px solid rgb(18, 18, 18);
+    position :absolute;
+    top:50%;
+    left:50%;
+    left:calc(50% - 7px);
+}
+
+span{
+    display:inline-block;
+}
+
+.num{
+    position: absolute;
+    height: 99%;
+}
+
+.num1{
+    transform: rotate(30deg);
+}
+
+.num1 span{
+    transform: rotate(-30deg);
+}
+
+.num2{
+    transform: rotate(60deg);
+}
+
+.num2 span{
+    transform: rotate(-60deg);
+}
+
+
+.num3{
+    transform: rotate(90deg);
+}
+
+.num3 span{
+    transform: rotate(-90deg);
+}
+
+
+.num4{
+    transform: rotate(120deg);
+}
+
+
+.num4 span{
+    transform: rotate(-120deg);
+}
+
+.num5{
+    transform: rotate(150deg);
+}
+
+.num5 span{
+    transform: rotate(-150deg);
+}
+
+.num6{
+    transform: rotate(180deg);
+}
+
+.num6 span{
+    transform: rotate(-180deg);
+}
+
+
+.num7{
+    transform: rotate(210deg);
+}
+
+.num7 span{
+    transform: rotate(-210deg);
+}
+
+.num8{
+    transform: rotate(240deg);
+}
+
+.num8 span{
+    transform: rotate(-240deg);
+}
+
+.num9{
+    transform: rotate(270deg);
+}
+
+.num9 span{
+    transform: rotate(-270deg);
+}
+
+.num10{
+    transform: rotate(300deg);
+}
+
+.num10 span{
+    transform: rotate(-300deg);
+}
+
+.num11{
+    transform: rotate(330deg);
+}
+
+.num11 span{
+    transform: rotate(-330deg);
+}
+
+.num12{
+    transform: rotate(360deg);
+}
+
+.num12 span{
+    transform: rotate(-360deg);
+}
+
+.num span{
+    line-height: 32px;
+}
+
+.sec-hand{
+    width:2px;
+    height:45%;
+    position: absolute;
+    top: 15%;
+    left:50%;
+    border-radius: 100% 100% 0 0;
+    background-color: red;
+    transform-origin: 50% 85%;
+}
+
+.min-hand{
+    width:5px;
+    height:35%;
+    position: absolute;
+    top:25%;
+    left:50%;
+    transform: translate(-50%,-30%);
+    border-radius: 100% 100% 0 0;
+    background-color: black;
+    transform-origin: 50% 75%;
+}
+
+.hr-hand{
+    width: 7px;
+    height: 25%;
+    position: absolute;
+    top:33%;
+    left:50%;
+    transform: translate(-50%,-40%);
+    border-radius: 100% 100% 0 0;
+    background-color: black;
+    transform-origin: 50% 75%;
+}
