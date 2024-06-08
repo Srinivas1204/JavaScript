@@ -30,9 +30,9 @@ body{
     background-color: #5e5e5e;
     border: 1px solid rgb(18, 18, 18);
     position :absolute;
-    top:50%;
+    top:49.5%;
     left:50%;
-    left:calc(50% - 7px);
+    left:calc(50% - 5px);
 }
 
 span{
@@ -152,7 +152,7 @@ span{
     width:2px;
     height:45%;
     position: absolute;
-    top: 15%;
+    top: 13.5%;
     left:50%;
     border-radius: 100% 100% 0 0;
     background-color: red;
@@ -175,10 +175,10 @@ span{
     width: 7px;
     height: 25%;
     position: absolute;
-    top:33%;
+    top:35%;
     left:50%;
-    transform: translate(-50%,-40%);
+    transform: translate(-50%,-50%);
     border-radius: 100% 100% 0 0;
     background-color: black;
-    transform-origin: 50% 75%;
+    transform-origin: 50% 69%;
 }
